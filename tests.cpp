@@ -67,13 +67,13 @@ TEST_CASE("frameBorderArea")
 }
 
 TEST_CASE("getMaxBorder")
-/{
-//  cout << "4: getMaxBorder" << endl;
-//  CHECK(getMaxBorder(5, 10) == 2);
-//  CHECK(getMaxBorder(10, 5) == 2);
-//  CHECK(getMaxBorder(12, 16) == 5);
-//  CHECK(getMaxBorder(18, 16) == 7);
-//}
+{
+  cout << "4: getMaxBorder" << endl;
+  CHECK(getMaxBorder(5, 10) == 2);
+  CHECK(getMaxBorder(10, 5) == 2);
+  CHECK(getMaxBorder(12, 16) == 5);
+  CHECK(getMaxBorder(18, 16) == 7);
+}
 
 // Add your own test case for hangingWireLength here
 
