@@ -49,6 +49,8 @@ int getMaxBorder(int width, int height){
   }
 }
 
+
+
 ///----------------------------------------------------------------------------------
 /// Tests
 /// Uncomment tests to work on them. Make sure any test that does not compile or
