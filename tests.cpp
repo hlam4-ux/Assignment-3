@@ -20,7 +20,7 @@ using doctest::Approx;
 using namespace std;
 
 int getArea(int width, int height){
-  
+    return width * he
 }
 
 ///----------------------------------------------------------------------------------
