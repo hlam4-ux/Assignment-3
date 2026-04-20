@@ -33,7 +33,8 @@ int frameBorderArea(int width, int height, int border)
 {
   int outsideArea = width * height;
   int insideWidth = width - 2 * border;
-  int insideheight = height 
+  int insideheight = height - 2 * border;
+  int insider
 }
 
 ///----------------------------------------------------------------------------------
