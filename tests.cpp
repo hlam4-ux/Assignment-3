@@ -43,12 +43,6 @@ TEST_CASE("getArea")
   CHECK(getArea(12, 7) == 84);
 }
 
-double calculateAspectRatio(int width, int height, int border){
-  double insidewidth = width - 2 * border;
-  double insideheight = height - 2 * border;
-  return insidewidth / insideheight;
-}
-
 TEST_CASE("calculateAspectRatio")
 {
   cout << "2: calculateAspectRatio" << endl;
