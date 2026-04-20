@@ -38,6 +38,8 @@ int frameBorderArea(int width, int height, int border)
   return outsideArea - insiderArea;
 }
 
+int 
+
 ///----------------------------------------------------------------------------------
 /// Tests
 /// Uncomment tests to work on them. Make sure any test that does not compile or
