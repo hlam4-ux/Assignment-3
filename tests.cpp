@@ -45,7 +45,7 @@ int getMaxBorder(int width, int height){
   }
   else
   {
-    
+    return (height - 1)
   }
 }
 
