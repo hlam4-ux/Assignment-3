@@ -39,8 +39,8 @@ TEST_CASE("getArea")
 
 double calculateAspectRatio(int width, int height, int border){
   double insidewidth = width - 2 * border;
-  double insideheight = height - 2 * broder;
-  return insidewidth / 
+  double insideheight = height - 2 * border;
+  return insidewidth / insideheight;
 }
 
 TEST_CASE("calculateAspectRatio")
