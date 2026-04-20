@@ -20,7 +20,7 @@ using doctest::Approx;
 using namespace std;
 
 int getArea(int width, int height){
-    return width * he
+    return width * height;
 }
 
 ///----------------------------------------------------------------------------------
@@ -30,7 +30,7 @@ int getArea(int width, int height){
 /// on (uncommented), even if the test fails.
 ///----------------------------------------------------------------------------------
 
-//TEST_CASE("getArea")
+TEST_CASE("getArea")
 //{
 //  cout << "1: getArea" << endl;
 //  CHECK(getArea(2, 4) == 8);
