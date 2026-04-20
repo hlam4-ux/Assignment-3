@@ -29,7 +29,7 @@ double calculateAspectRatio(int width, int height, int border){
   return insidewidth / insideheight;
 }
 
-int frameBorderArea(int width, int height)
+int frameBorderArea(int width, int height, int border)
 
 ///----------------------------------------------------------------------------------
 /// Tests
@@ -39,7 +39,7 @@ int frameBorderArea(int width, int height)
 ///----------------------------------------------------------------------------------
 
 TEST_CASE("getArea")
-{}
+{
   cout << "1: getArea" << endl;
   CHECK(getArea(2, 4) == 8);
   CHECK(getArea(12, 7) == 84);
