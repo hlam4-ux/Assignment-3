@@ -37,7 +37,7 @@ TEST_CASE("getArea")
   CHECK(getArea(12, 7) == 84);
 }
 
-//TEST_CASE("calculateAspectRatio")
+TEST_CASE("calculateAspectRatio")
 //{
 //  cout << "2: calculateAspectRatio" << endl;
 //  CHECK(calculateAspectRatio(4, 6, 1) == Approx(0.5));
