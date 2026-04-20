@@ -30,7 +30,9 @@ double calculateAspectRatio(int width, int height, int border){
 }
 
 int frameBorderArea(int width, int height, int border)
-{}
+{
+  int outside
+}
 
 ///----------------------------------------------------------------------------------
 /// Tests
