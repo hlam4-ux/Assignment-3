@@ -51,11 +51,11 @@ TEST_CASE("calculateAspectRatio")
 }
 
 TEST_CASE("frameBorderArea")
-//{
-//  cout << "3: frameBorderArea" << endl;
-//  CHECK(frameBorderArea(12, 10, 2) == 72);
-//  CHECK(frameBorderArea(20, 16, 3) == 180);
-//}
+{
+  cout << "3: frameBorderArea" << endl;
+  CHECK(frameBorderArea(12, 10, 2) == 72);
+  CHECK(frameBorderArea(20, 16, 3) == 180);
+}
 
 //TEST_CASE("getMaxBorder")
 //{
