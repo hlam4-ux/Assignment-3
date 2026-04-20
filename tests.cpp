@@ -66,8 +66,8 @@ TEST_CASE("frameBorderArea")
   CHECK(frameBorderArea(20, 16, 3) == 180);
 }
 
-//TEST_CASE("getMaxBorder")
-//{
+TEST_CASE("getMaxBorder")
+/{
 //  cout << "4: getMaxBorder" << endl;
 //  CHECK(getMaxBorder(5, 10) == 2);
 //  CHECK(getMaxBorder(10, 5) == 2);
