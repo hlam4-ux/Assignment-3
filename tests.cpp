@@ -23,6 +23,12 @@ int getArea(int width, int height){
     return width * height;
 }
 
+double calculateAspectRatio(int width, int height, int border){
+  double insidewidth = width - 2 * border;
+  double insideheight = height - 2 * border;
+  return insidewidth / insideheight;
+}
+
 ///----------------------------------------------------------------------------------
 /// Tests
 /// Uncomment tests to work on them. Make sure any test that does not compile or
