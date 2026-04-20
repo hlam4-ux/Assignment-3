@@ -38,7 +38,9 @@ int frameBorderArea(int width, int height, int border)
   return outsideArea - insiderArea;
 }
 
-int getMaxBorder(int)
+int getMaxBorder(int width, int height){
+  
+}
 
 ///----------------------------------------------------------------------------------
 /// Tests
