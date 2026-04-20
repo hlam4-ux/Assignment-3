@@ -32,7 +32,8 @@ double calculateAspectRatio(int width, int height, int border){
 int frameBorderArea(int width, int height, int border)
 {
   int outsideArea = width * height;
-  int insideWidth = width - 2 * 
+  int insideWidth = width - 2 * border;
+  int insideheight = 
 }
 
 ///----------------------------------------------------------------------------------
