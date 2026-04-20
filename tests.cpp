@@ -32,10 +32,10 @@ int getArea(int width, int height){
 
 TEST_CASE("getArea")
 {
-//  cout << "1: getArea" << endl;
-//  CHECK(getArea(2, 4) == 8);
-//  CHECK(getArea(12, 7) == 84);
-//}
+ cout << "1: getArea" << endl;
+CHECK(getArea(2, 4) == 8);
+CHECK(getArea(12, 7) == 84);
+}
 
 //TEST_CASE("calculateAspectRatio")
 //{
