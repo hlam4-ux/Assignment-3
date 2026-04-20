@@ -37,7 +37,9 @@ TEST_CASE("getArea")
   CHECK(getArea(12, 7) == 84);
 }
 
-double calculateAspectRatio(int width, int height, int border)
+double calculateAspectRatio(int width, int height, int border){
+  double 
+}
 
 TEST_CASE("calculateAspectRatio")
 {
