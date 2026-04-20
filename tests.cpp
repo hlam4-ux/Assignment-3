@@ -19,7 +19,7 @@ using doctest::Approx;
 #include <iostream>
 using namespace std;
 
-int getArea
+int getArea(int width)
 
 ///----------------------------------------------------------------------------------
 /// Tests
