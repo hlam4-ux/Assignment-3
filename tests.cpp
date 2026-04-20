@@ -37,7 +37,7 @@ TEST_CASE("getArea")
   CHECK(getArea(12, 7) == 84);
 }
 
-
+double 
 
 TEST_CASE("calculateAspectRatio")
 {
