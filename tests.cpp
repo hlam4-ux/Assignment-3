@@ -40,7 +40,9 @@ int frameBorderArea(int width, int height, int border)
 
 int getMaxBorder(int width, int height){
   if(width < height)
-  {}
+  {
+    re
+  }
 }
 
 ///----------------------------------------------------------------------------------
