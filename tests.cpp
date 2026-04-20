@@ -38,11 +38,11 @@ TEST_CASE("getArea")
 }
 
 TEST_CASE("calculateAspectRatio")
-//{
-//  cout << "2: calculateAspectRatio" << endl;
-//  CHECK(calculateAspectRatio(4, 6, 1) == Approx(0.5));
-//  CHECK(calculateAspectRatio(12, 8, 2) == Approx(2.0));
-//}
+{
+  cout << "2: calculateAspectRatio" << endl;
+  CHECK(calculateAspectRatio(4, 6, 1) == Approx(0.5));
+  CHECK(calculateAspectRatio(12, 8, 2) == Approx(2.0));
+}
 
 //TEST_CASE("frameBorderArea")
 //{
