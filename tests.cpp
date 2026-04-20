@@ -50,7 +50,7 @@ TEST_CASE("calculateAspectRatio")
   CHECK(calculateAspectRatio(12, 8, 2) == Approx(2.0));
 }
 
-//TEST_CASE("frameBorderArea")
+TEST_CASE("frameBorderArea")
 //{
 //  cout << "3: frameBorderArea" << endl;
 //  CHECK(frameBorderArea(12, 10, 2) == 72);
