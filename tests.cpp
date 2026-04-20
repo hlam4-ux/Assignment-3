@@ -37,6 +37,8 @@ TEST_CASE("getArea")
   CHECK(getArea(12, 7) == 84);
 }
 
+
+
 TEST_CASE("calculateAspectRatio")
 {
   cout << "2: calculateAspectRatio" << endl;
