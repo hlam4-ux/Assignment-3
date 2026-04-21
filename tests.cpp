@@ -49,7 +49,7 @@ int getMaxBorder(int width, int height){
   }
 }
 
-double (int width, int height){
+double hanginghWire(int width, int height){
   return width + height / 4.0 + 6;
 }
 
