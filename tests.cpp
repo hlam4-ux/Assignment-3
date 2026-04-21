@@ -94,5 +94,5 @@ TEST_CASE("getMaxBorder")
 TEST_CASE("hangWireLength"){
   cout << "5 : hangWireLength" << endl;
   CHECK(hangWireLength(4,3) == Approx(10.75));
-  CHECK
+  CHECK(hangWireLength())
 }
