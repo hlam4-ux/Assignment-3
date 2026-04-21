@@ -50,7 +50,7 @@ int getMaxBorder(int width, int height){
 }
 
 double hangingwireLength(int width, int height){
-  return width + height / 4.0 + 6
+  return width + height / 4.0 + 6;
 }
 
 ///----------------------------------------------------------------------------------
@@ -91,4 +91,4 @@ TEST_CASE("getMaxBorder")
 }
 
 // Add your own test case for hangingWireLength here
-
+TEST_CASE
