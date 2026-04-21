@@ -50,7 +50,7 @@ int getMaxBorder(int width, int height){
 }
 
 double hangingwireLength(int width, int height){
-  return
+  return width + height
 }
 
 ///----------------------------------------------------------------------------------
