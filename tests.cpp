@@ -92,5 +92,5 @@ TEST_CASE("getMaxBorder")
 
 // Add your own test case for hangingWireLength here
 TEST_CASE("hangWireLength"){
-  
+  cout << ""
 }
