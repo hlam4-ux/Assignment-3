@@ -91,4 +91,6 @@ TEST_CASE("getMaxBorder")
 }
 
 // Add your own test case for hangingWireLength here
-TEST_CASE("")
+TEST_CASE("hangWireLength"){
+  
+}
