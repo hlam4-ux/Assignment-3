@@ -49,7 +49,7 @@ int getMaxBorder(int width, int height){
   }
 }
 
-double hanginghWire(int width, int height){
+double hanginghWireLength(int width, int height){
   return width + height / 4.0 + 6;
 }
 
@@ -94,7 +94,7 @@ TEST_CASE("getMaxBorder")
 TEST_CASE("hangWireLength"){
   cout << "5 : hangWireLength" << endl;
   CHECK(hangingWireLength(4, 3) == Approx(10.75));
-  CHECK(hangWireLength(2, 2) == Approx(8.5));
-  CHECK(hangWireLength(10, 5) == Approx(17.25));
+  CHECK(hanginghWireLength(2, 2) == Approx(8.5));
+  CHECK(hanginghWireLength(10, 5) == Approx(17.25));
 
 }
